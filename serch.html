@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search and Summarize Data</title>
+  <link rel="shortcut icon" type="x-icon" href="maintenance.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Search and Summarize Data</h1>
+    <form class="search-form" action="summary.php" method="POST">
+      <label for="startDate" class="label">Start Date:</label>
+      <input type="date" id="startDate" name="startDate" class="input" required><br>
+      <label for="endDate" class="label">End Date:</label>
+      <input type="date" id="endDate" name="endDate" class="input" required><br>
+      <button type="submit" class="button">Generate Summary</button>
+    </form>
+  </div>
+</body>
+</html>

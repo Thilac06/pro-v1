@@ -1,0 +1,51 @@
+body {
+    background-image: url(high-angle-laptop-hard-drive-arrangement.jpg);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 1em;
+    animation: ani3 1.5s;
+    max-width: 400px;
+    width: 80%;
+}
+
+.ms {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sbtn {
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.sbtn:hover {
+    transform: scale(1.1);
+    background-color: rgb(47, 44, 44);
+}
+
+@keyframes ani3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
