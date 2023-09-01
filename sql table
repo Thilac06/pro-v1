@@ -1,0 +1,10 @@
+CREATE TABLE details (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cdate DATE,
+    return_date DATE,
+    school VARCHAR(255),
+    cobject VARCHAR(255),
+    defect VARCHAR(255),
+    quantity INT,
+    cost DECIMAL(10, 2)
+);
